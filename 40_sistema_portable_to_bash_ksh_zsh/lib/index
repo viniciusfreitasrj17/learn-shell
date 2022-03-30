@@ -1,0 +1,22 @@
+_help() {
+  echo \
+  "Opções Disponíveis
+  -l, --login (Abri programa com menu)
+  -h, --help (Abri esta opção de ajuda)
+  -b, --backup ORIGEM DESTINO (Abri a função backup)"
+}
+
+# function _menu() {
+#   echo "Bem vindo $(echo "$user" | tr '[:lower:]' '[:upper:]')"
+#   echo \
+#   "#================================#
+# 1) Abrir o Firefox
+# 2) Abrir o Gedit
+# 3) Abrir o Terminal
+
+# sair) Sair
+# #================================#
+#   "
+
+#   read -p "Selecione uma das opções: " opcao
+# }
